@@ -1,0 +1,22 @@
+title: My Blog
+description: Welcome to my personal blog and thoughts
+author: GuyWithARiceCooker
+email: your-email@example.com
+url: https://guywithericecooker.github.io/my-blog
+baseurl: /my-blog
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - about.md
+  - archive.md
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
